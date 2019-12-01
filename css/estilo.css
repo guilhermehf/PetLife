@@ -1,0 +1,362 @@
+* {  margin: 0px; /* tira a margem de todos os elementos html */
+     padding: 0px; /* reseta paddings */
+  }
+
+.container{
+margin: 0 auto;
+width: 100%; /* p60px */
+}
+
+#logo {
+    height:  152px;
+    padding-left: 100px;
+    position: relative;
+    float: left;
+}
+
+#topo {
+    position: relative;
+    height: 152px; /*Neimar*/
+    padding-left: 150px; /* margem do segundo menu */
+    background: url('../imagens/h1bg.png');
+    background-color: red; /* pra não piscar branco */ 
+   }
+
+#divBusca{
+  /* esses 4 primeiros itens e o position e float determinam a posição da caixa de busca */
+  margin-top: 50px;    
+  margin-left: 10px;
+  padding-left: 5px;
+  padding-top: 10px;
+
+  background-color:#FFF;
+  border:solid 1px;
+  border-radius:15px;
+  width:300px;
+  position: relative;
+  float: left;
+}
+
+#divBusca input {
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    padding-left: 20px; /* dá o efeito de cortado do lado esquerdo, mas não aparece pq tá com fundo branco */
+}
+
+#divBusca img {
+    border-radius: 15px;
+    position: relative;
+    float: right;
+    margin-top: -55px;
+    padding-left: 5px; /* dá o efeito de cortado do lado esquerdo. */
+}
+
+#txtBusca{
+  position: relative;
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  padding-top: 5px;
+  font-style:italic;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:260px;
+}
+
+#login figure img {
+    position: relative;
+    float: left;
+}
+
+#compras figure img {
+    position: relative;
+    float: left;
+}
+
+#entrega figure img {
+    position: relative;
+    float: left;
+}
+/*Fim*/
+
+body {
+/* background: url(imagens/fundosite.jpg); */
+background-color: #FFF;
+font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana,
+sans-serif;
+line-height: 1.6;
+font-size: 14px;
+}
+
+li{
+    display: inline;
+}
+
+#sMenu {
+  padding-right: 150px; /* ajusta o lado direito do menu */
+}
+
+.menu{
+        width: 100%; 
+        list-style: none;
+        float:left;
+        font-size:14px;
+        border:1px solid rgba(0,0,0,0.2);
+        /*width:200px;*/
+        text-align:center;
+        padding:10px 0;
+        font-weight:bold;
+        /*font-style:italic;*/
+        color: red;
+        /*background-color: white;*/
+        margin: 1px; /* para aparecer a borda do menu */
+        
+}
+
+.menu li{
+    width: 170px; /* AGORA */
+    position:relative; 
+    float: left; 
+    border-right:1px solid #c0c0c0; 
+}
+
+.menu li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
+ 
+.menu li a:hover{
+background:#333; 
+color:#fff; 
+-moz-box-shadow:0 3px 10px 0 #CCC; 
+-webkit-box-shadow:0 3px 10px 0 #ccc; 
+text-shadow:0px 0px 5px #fff; 
+}
+
+.menu li  ul{
+position:absolute; /* absolute */
+top:30px; 
+left:0;
+background-color:#fff; 
+display:none;
+}  
+
+.menu li:hover ul, .menu li.over ul{display:block;}
+
+.menu li ul li{
+border:1px solid #c0c0c0; 
+display:block; 
+width:300px; /* tamanho do submenu*/
+}
+
+#main {
+margin: 0 auto;
+width: 100%; /* p60px */
+}
+
+#banner img {
+    height: 100%; /* 500px */
+    width: 100%;
+}
+
+/* Destaques */
+.paineis {
+  margin: 0 auto;
+  width: 100%; /* 90% */
+}
+
+#destaques {
+  font-size: 44px;
+  color: gray;
+  text-align: center;
+}
+
+#propaganda {
+  font-size: 24px;
+  color: gray;
+  text-align: center;
+}
+
+.painel {
+   margin: 10px 0; /* espaçamento entre os grupos de imagens */
+   padding: 0px; /* quando colocado var aumenta a largura da página */
+   width: 100%;
+   float: right;
+ }
+
+.painel figure {
+   display: inline-block;
+   vertical-align: top;
+   padding-bottom: 5px;
+ }
+
+.painel figure img {
+   vertical-align: top;
+   width: 289px;
+   margin: 20px; /* espaço entre imagens */
+   margin-left: 100px; /* espaço do lado esquerdo */
+ }
+
+ figcaption {
+  vertical-align: top;
+  text-align: center; /* alinhar texto ao centro */
+  margin-left: 100px; /* alinha texto com imagem */
+ }
+
+.novidades {
+   float: left;
+ }
+
+ .mais-vendidos {
+   float: left;
+ }
+
+/* lojas */
+ #lojas {
+  background: url('../imagens/h1bg.png');
+  position: relative;
+  float: left;
+  border: solid 1px;
+  width: 100%;
+ }
+
+#loja1 p, #loja2 p  {
+  margin: 10px;
+  font-family: 'sans-serif';
+  font-size: 20px;
+  line-height: 16px;
+  color: #FFF;
+}
+  
+ #loja1 {
+  float: left;
+  padding: 40px;
+  margin-left: 40px;
+ }
+
+ #loja2 {
+  float: left;
+  padding: 40px;
+ }
+
+/* Fale Conosco */
+ #fconosco {
+  float: left;
+  margin-left: 40px;
+  margin-right: 0px; /*285px */
+ }
+
+.formulario {
+    width:400px;
+    margin:0 auto;
+    /* define a posição dos campos */
+    margin-top: 130px;    
+    margin-left: 0px;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+.formulario .campos {
+    position: relative;
+    width: 100%;
+    margin: 25px auto;
+}
+
+.formulario .input {
+    width:100%;  /* define todos os campos input */
+    height: 50px;
+    font-size: 12px;
+    line-height: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    border:0;
+    outline: none;
+    border-bottom:3px solid #000; 
+    border-radius: 15px;
+    padding-left: 20px; /* define a posição de inicio do cursor no campo */
+    margin: 10px; /* determina o espaçamento entre os campos input */
+}
+
+.formulario .input2 {
+    width:100%;           /* define o campo mensagem */
+    height: 200px;
+    font-size: 12px;
+    line-height: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    border:0;
+    outline: none;
+    border-bottom:3px solid #000; 
+    border-radius: 15px;
+    padding-left: 20px;/* define a posição de inicio do cursor no campo */
+    padding-top: 12px; /* determina onde a mensagem do placeholder vai ficar dentro do campo */
+    margin: 10px; /* determina o espaçamento entre os campos input */
+}
+
+/* botão enviar */
+button.css3button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 15px 60px;
+  background: -webkit-gradient(
+    linear, left top, left bottom,
+    from(#ff2819),
+    to(#ab0000));
+  background: linear-gradient(
+    top,
+    #ff2819 0%,
+    #ab0000);
+  border-radius: 10px;
+  border: 1px solid #7d0000;
+  box-shadow:
+    0px 1px 3px rgba(000,000,000,0.5),
+    inset 0px 0px 2px rgba(255,255,255,0.7);
+  text-shadow:
+    0px -1px 0px rgba(000,000,000,0.4),
+    0px 1px 0px rgba(255,255,255,0.3); 
+    margin-left: 12px; /* alinha o botão com os inputs */
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/* footer */
+
+footer {
+  font-size: 14px;
+  text-align: center;
+  float: left;
+  background: url('../imagens/h2bg.png');
+  border: solid 1px;
+  width: 100%; /* ajusta a largura do footer */
+}
+
+footer p {
+  float: right;
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: #FFF;
+}
+
+#logo_footer {
+  float: left;
+  margin: 40px;
+  margin-left: 250px;
+}
+
+#nav_footer {
+  float: left;
+  margin: 40px;
+  margin-left: 140px;
+}
+
+#nav_footer h2 {
+  margin-left: -185px;
+  color: #FFF;
+}
+
+#nav_footer ul li {
+  display: inline;
+  float: left;
+}
+

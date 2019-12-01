@@ -1,0 +1,26 @@
+#parte1 {
+	width: 100%;
+}
+
+#imgVet {
+	width: 100%
+}
+
+#texto {
+	text-align: justify;
+}
+#texto h1 {
+	font-family: Helvetica, sans-serif;
+	font-size: 24px;
+}
+
+#texto h2 {
+	font-family: Helvetica, sans-serif;
+	font-size: 15px;
+}
+#horario {
+	font-weight: bold;
+}
+#mapa p {
+	font-weight: bold;	
+}

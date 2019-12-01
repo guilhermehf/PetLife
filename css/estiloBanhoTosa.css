@@ -1,0 +1,89 @@
+body{
+    background-color: #DDD;
+    margin: auto;
+    padding: 0px;
+}
+
+.conteiner{
+   margin: 0 auto;
+   width: 100%;
+   
+    
+}
+
+#cab{
+    width: 100%;
+    height: 150px;
+    background: url(imagens/h1bg.png) repeat-x;
+}
+
+  /*--------------*/
+
+  /*Logo Login*/
+
+  #logoLogin{
+    float:right;
+    height: 60px;
+    margin-right: 180px;
+    margin-top: -80px;
+
+  }
+
+  #pp{
+    width: 100%;
+    height: 2500px;
+    float: left;
+    background: url(imagens/h1bg.png) repeat;    
+
+  }
+
+  #rod{
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    float: left;
+   /* background: url(imagens/h1bg.png) repeat;*/
+   background-color: seagreen;
+  }
+
+  /*Imagem banho tosa*/
+
+  #imgBanhoTosa{
+      width: 100%;
+      height: 500px;
+      
+  }
+
+  #fig{
+      margin: 0px;
+      padding: 0px;
+  }
+
+  #imgDog{
+      width: 100%;
+      float: left;
+      border-radius: 10px;
+  }
+  /*id par de article*/
+  #par{
+      float: left;
+      text-align: center;
+      margin-left: 5px;
+      margin-top: 10px;
+  }
+
+  #parUm{
+    float: center;
+    margin-left: 50px;
+    font-size: 17px;
+    margin-top: 10px;
+
+  }
+  /*Formulario*/
+  #formu{
+      float: center;
+      margin-left: 50px;
+      font-size: 17px;
+  }
+
+  

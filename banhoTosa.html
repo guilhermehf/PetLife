@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>LojaPet</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/estiloBanhoTosa.css">
+	<link rel="stylesheet" href="css/estilo.css">
+
+</head>
+<body>
+
+	<div class="conteiner">
+
+		<!-------Início do cabeçalho------->
+		<header id="topo">
+			<!--so figure-->
+			<figure id="logo">
+				<a href="index.html"><img src="imagens/logo.png"></a>
+			</figure>
+			<!--form-->
+			<form id="divBusca">
+				<input type="text" id="txtBusca" placeholder="Buscar..."/>
+				<a href="#buscar"><img src="imagens/lupa.png" id="btnBusca" alt="Buscar"/></a>
+			</form>	
+			<!--menu -->  
+			<nav>
+				<ul>
+					<li id="login">
+						<figure>
+							<a href="cadastro.html"><img src="imagens/login.png"></a>
+						</figure>
+					</li>  
+					<li id="compras">
+						<figure>
+							<a href="#home"><img src="imagens/compras.png"></a>
+						</figure>
+					</li>  
+					<li id="entrega">
+						<figure>
+							<a href="https://www2.correios.com.br/sistemas/rastreamento/" target="_blank"><img src="imagens/entrega.png"></a>
+						</figure>
+					</li>
+				</ul>
+			</nav>  
+			<!--- segundo menu ---> 
+			<nav id="sMenu">
+				<ul class="menu">
+					<li><a href="quemsomos.html">QUEM SOMOS</a></li>
+					<li><a href="#">SERVIÇOS</a>
+						<ul>
+							<li><a href="banhoTosa.html">Banho e Tosa</a></li>
+							<li><a href="veterinario.html">Veterinário</a></li>
+							<li><a href="hotel.html">Hotel</a></li>                    
+						</ul>
+					</li>	
+					<li><a href="#">PRODUTOS</a>
+						<ul>
+							<li><a href="racoes.html">Rações</a></li>
+							<li><a href="higienelimpeza.html">Higiene e Limpeza</a></li>
+							<li><a href="medicinasaude.html">Medicina e Saúde</a></li>                    
+						</ul>
+					</li>
+					<li><a href="faleconosco.html">CONTATO</a></li>
+					<li><a href="trabalheconosco.html">TRABALHE CONOSCO</a></li>
+					<li><a href="#">BLOG</a></li>                
+				</ul>
+			</nav>
+		</header>
+		<!--------- Fim do cabeçalho ------------>
+
+		<main id="pp">
+
+			<section>
+				<figure id="fig">
+					<img src="imagens/banhoTosa.png" id="imgBanhoTosa" alt="imagem"/>
+				</figure>
+
+				<article id="parUm">
+					<br/>
+					<h1>Banho e Tosa</h1>
+					<h2>Seu pet cada vez mais próximo da sua família.</h2>
+
+					<p>Para que seu pet possa ficar em contato próximo,<br/>
+						de maneira segura e saudável, com toda a sua família,<br/>
+						é importante que ele tenha hábitos de higiene periódicos,<br/>
+						como banho e tosa. Daí a importância do banho. Além de manter seu pet limpinho e cheiroso,<br/>
+					também previne algumas doenças que poderiam prejudicar o convívio com toda sua família.</p><br/>
+				</article>
+
+				<article id="parUm">
+					<h1>Por que levar meu pet para tomar banho em Pet Shop?</h1>
+					<p>Os estabelecimentos de estética animal,<br/>
+						além de possuírem profissionais preparados para dar esse tipo de serviço,<br/>
+						de modo que não coloque em risco a saúde do seu pet, têm conhecimento de dos  melhores<br/> 
+						e mais eficientes  produtos para pets disponíveis no mercado,<br/>
+						como: shampoos, produtos para limpeza dos ouvidos, corte de unha.<br/>
+						Uma equipe especializada também tem conhecimento da utilização correta<br/>
+						dos equipamentos em cada etapa do banho, como na secagem do pelo, que evita problemas<br/>
+						de fungos e bactérias.<br/>
+						Vale ressaltar que é a indispensável que a pele do pet não fique úmida por muito tempo,<br/>
+						pois a umidade e calor do seu pet são ambientes ideais para a proliferação de fungos e bactérias. <br/>
+						Por isso, dar banho em pet shops pode ser uma grande vantagem, já que nestes locais a secagem da pele e pelo é realizada<br/>
+					com secadores potentes, evitando a umidade.</p><br/>
+				</article>
+
+				<figure>
+					<img src="imagens/dogc.png" id="imgDog" alt="cachorro">
+				</figure>
+
+				<article id="parUm"><br/>
+					<h1>Qual a frequência ideal de banho e tosa?</h1>
+					<p>A indicação da frequência de banhos em cães e gatos varia conforme a pelagem do pet.<br/>
+
+						Algumas raças de cães que apresentam o pelo longo com crescimento contínuo,<br/>
+						podem ir ao pet shop de 1 a 4 vezes por mês. Para as raças com pelos volumosos,<br/>
+						a recomendação é de 1 a 2 vezes por mês, já as de pelos rasos, o intervalo pode ser maior,<br/>
+						de 2 em 2 meses.<br/>
+
+						Intervalos de banhos inferiores a uma vez por semana,<br/>
+						não são recomendados para nenhum tipo de pelagem,<br/>
+						a menos que o cão ou gato esteja em tratamento dermatológico.<br/>
+
+					Filhotes que ainda não foram devidamente vacinados, devem evitar idas aos pets shops. Banhos em empresas especializadas só devem acontecer após o término do protocolo de vacinação e vermifugação.</p>
+				</article>
+
+				<article id="formu">
+					<h1>Solicitação de Serviço Banho e Tosa</h1>
+				</article>
+
+
+			</section>
+
+			<section id="formu">
+				<form action="recebedados.php" method="post">
+
+					<label>Nome Completo:</label>
+					<input type="text" name="nome" placeholder="Nome Completo" required/><br/><br/>
+
+					<label for="contato">Email:</label>
+					<input type="email" name="contato" id="contato" placeholder="Email Valido" required/><br/><br/>
+
+					<label for="cidade">Cidade:</label>
+					<select id="cidade" name="cidade">
+						<option value="">Selecione...</option>
+						<option value="alvorada">Alvorada</option>
+						<option value="canoas">Canoas</option>
+						<option value="esteio" selected="selected">Esteio</option>
+						<option value="gravatai">Gravatai</option>
+						<option value="novoHamburgo">Novo Hamburgo</option>
+						<option value="passoFundo">Passo Fundo</option>
+						<option value="pelotas">Pelotas</option>
+						<option value="portoAlegre">Porto Alegre</option>
+						<option value="saoLeopoldo">São Leopoldo</option>
+					</select>
+
+					<br><br>
+
+					<label for="telefone">Telefone:</label>
+					<input type="tel" name="telefone" id="telefone"/>
+					<br><br>
+
+					<label for="endereco">Endereço (Rua,número e complemento)</label>
+					<input type="text" name="endereco" id="endereco" placeholder="Endereço" required/><br/><br/>
+
+
+
+					<label for="data2">Data:</label>
+					<input type="date" name="dat" id="data2" required/>
+					<br><br>
+
+					<label for="horario2">Horário:</label>
+					<input type="time" name="horario2" id="horario2" required/>
+					<br><br>
+
+					<label>Informação Adicional:</label><br/>
+					<textarea id="descricao" name="descricao" cols="50" rows="5" maxlength="140"></textarea><br/><br/>
+
+					<input type="submit" id="benviar" name="benviar" value="Enviar"/>
+					<input type="reset" id="blimpar" name="blimpar" value="Apagar"/>
+
+				</form>
+			</section>
+
+		</main>
+		<!---------- Início da parte fixa de baixo --------------->
+		<section id="lojas">
+			<!--article-->
+			<article id="loja1">
+				<p>Loja Shopping Total</p>
+				<p>Av. Cristóvão Colombo, 545</p>
+				<p>Independência - Porto Alegre - RS</p>
+				<p>CEP: 90560-003</p><br>
+				<p>(51) 3030.6239</p><br>
+				<p>Horário:</p>
+				<p>Seg a Sáb: das 9h:00 as 22h</p>
+				<p>Domingo: das 13h:00 as 20h</p>
+				<p>contatototal@petlife.com.br</p><br>
+
+				<p>Loja Alphaville</p>
+				<p>Av. Alphaville, 580</p>
+				<p>Alphaville - Barueri - SP</p>
+				<p>CEP: 06472-010</p><br>
+				<p>(11) 2181.7355</p><br>
+				<p>Horário:</p>
+				<p>Seg a Sáb: das 8h:00 as 22h</p>
+				<p>Domingo: das 13h:00 as 20h</p>
+				<p>contatoalpha@petlife.com.br</p>
+			</article>
+			<!--article--->
+			<article id="loja2">
+
+				<p>Loja Canoas Shopping</p>
+				<p>R. Ferreira Viana, 43</p>
+				<p>São José - Canoas - RS</p>
+				<p>CEP: 92425-010</p><br>
+				<p>(51) 3785.9388</p><br>
+				<p>Horário:</p>
+				<p>Seg a Sáb: das 8h:30 as 22h</p>
+				<p>Domingo: das 13h:00 as 20h</p>
+				<p>contatocanoas@petlife.com.br</p><br>
+
+				<p>Loja Shopping Alvorada</p>
+				<p>R. Vasco da Gama, 115</p>
+				<p>Sumaré - Alvorada - RS</p>
+				<p>CEP: 94820-490</p><br>
+				<p>(51) 3411.6624</p><br>
+				<p>Horário:</p>
+				<p>Seg a Sáb: das 8h:30 as 22h</p>
+				<p>Domingo: das 13h:00 as 20h</p>
+				<p>contatoalvorada@petlife.com.br</p>
+			</article>
+			<section id="fconosco">
+				<form action="post" class="formulario">
+					<div class="campos">
+						<input id="cnome" type="text" name="nome"  class="input" placeholder="*NOME" required /> 
+						<input id="ctel" type="tel" name="telefone"  class="input" placeholder="*TELEFONE" required /> 
+						<input id="cemail" type="email" name="email"  class="input" placeholder="*EMAIL" required /> 
+						<textarea id="cmensagem" name="mensagem"  class="input2" placeholder="*MENSAGEM" required ></textarea>
+						<button type="submit" name="btenviar" value="ENVIAR" class="css3button">ENVIAR</button>
+					</div>
+				</form>
+			</section>  
+		</section>
+		<footer>
+			<figure id="logo_footer">
+				<a href="index.html"><img src="imagens/logo_footer.png"></a>
+			</figure>
+			<nav id="nav_footer">
+				<h2>Nos acompanhe</h2>
+				<ul>
+					<li>
+						<figure id="instagram">
+							<a href="https://www.instagram.com" target="_blank"><img src="imagens/bt_instagram.png"></a>
+						</figure>
+					</li>
+					<li>
+						<figure id="face">
+							<a href="https://www.facebook.com" target="_blank"><img src="imagens/bt_face.png"></a>
+						</figure>
+					</li>
+					<li>
+						<figure id="twiter">
+							<a href="https://twitter.com" target="_blank"><img src="imagens/bt_twiter.png"></a>
+						</figure>
+					</li>
+					<li>
+						<figure id="youtube">
+							<a href="https://www.youtube.com" target="_blank"><img src="imagens/bt_youtube.png"></a>
+						</figure>
+					</li>
+				</ul>  
+			</nav>
+			<!--article-->
+			<article id="informação">
+				<p>Os preços e condições de pagamento exibidos, são exclusivos para compras pelo site. Nossas ofertas são válidas até
+					o término do estoque para a Internet. Venda sujeita à análise e confirmação de dados. As fotos contidas em nosso site
+					são meramente ilustrativas. Se, por alguma eventualidade técnica ou instabilidade do sistema, algum dos preços
+					deste site apresentarem discrepâncias, a Pet Life se reserva o direito de efetuar seu reparo no prazo mais
+				curto possível, não se obrigando a realizar o encerramento do processo de vendas sem sua prévia correção.</p>
+			</article>
+		</footer>
+		<!----------- Fim da parte fixa de baixo ------------------>
+
+
+
+
+
+	</body>
+
+</div>
+
+<!--https://www.dotpet.com.br/site/banho-e-tosa/-->
+
+
+</html>
